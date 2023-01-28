@@ -48,15 +48,15 @@ public class Init {
 		nel.setCap(60);
 		lots.add(nel);
 		
-		Lot apg = new Lot("APG");
-		apg.setLotNum(80);
-		apg.setCap(400);
-		lots.add(apg);
+		Lot ng = new Lot("s");
+		ng.setLotNum(64);
+		ng.setCap(70);
+		lots.add(ng);
 		
-		Lot spg = new Lot("SPG");
-		spg.setLotNum(84);
-		spg.setCap(600);
-		lots.add(spg);
+		Lot ngn = new Lot("s");
+		ngn.setLotNum(84);
+		ngn.setCap(600);
+		lots.add(ngn);
 		
 		Lot apg = new Lot("APG");
 		apg.setLotNum(80);
