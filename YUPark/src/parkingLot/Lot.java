@@ -1,7 +1,5 @@
 package parkingLot;
 
-import Vehicle;
-
 public class Lot {
 	protected String lotType;
 	protected int lotNum;
@@ -38,24 +36,25 @@ public class Lot {
 		this.cap = cap;
 	}
 
-	public void park (Lot a, Vehicle) extends FullCapacityError{
+	public void park (Lot a, Vehicle v) {
 		if (a.counter < a.cap){
 			counter++;
-
+			v.parked = true;
 		}
 		else{
 			throw new FullCapacityError("Lot is at full capacity");
 		}
 	}
 
-	public void depark (Lot a){
+	public void depark (Lot a, Vehicle v){
 		a.counter--;
+		v.parked = false;
 	}
 
 
 }
 
-class FullCapacityError extends Exception{
+class FullCapacityError extends IllegalArgumentException{
 	public FullCapacityError(String message){
 		super(message);
 	}

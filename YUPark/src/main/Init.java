@@ -54,24 +54,24 @@ public class Init {
 		lots.add(ng);
 		
 		Lot ngn = new Lot("s");
-		ngn.setLotNum(84);
-		ngn.setCap(600);
+		ngn.setLotNum(105);
+		ngn.setCap(70);
 		lots.add(ngn);
 		
-		Lot apg = new Lot("APG");
-		apg.setLotNum(80);
-		apg.setCap(400);
-		lots.add(apg);
+		Lot ngs = new Lot("s");
+		ngs.setLotNum(106);
+		ngs.setCap(50);
+		lots.add(ngs);
 		
-		Lot spg = new Lot("SPG");
-		spg.setLotNum(84);
-		spg.setCap(600);
-		lots.add(spg);
+		Lot prs = new Lot("s");
+		prs.setLotNum(89);
+		prs.setCap(6);
+		lots.add(prs);
 		
-		Lot apg = new Lot("APG");
-		apg.setLotNum(80);
-		apg.setCap(400);
-		lots.add(apg);
+		Lot tre = new Lot("s");
+		tre.setLotNum(77);
+		tre.setCap();
+		lots.add(tre);
 		
 		Lot spg = new Lot("SPG");
 		spg.setLotNum(84);

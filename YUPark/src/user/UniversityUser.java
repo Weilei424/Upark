@@ -6,7 +6,6 @@ public abstract class UniversityUser extends Account {
 	protected String name;
 	protected int id;
 	public static int accNumGenerator = 100000;
-	protected Vehicle vehicleInfo;
 	protected String paymentType;
 	
 	protected UniversityUser() {
@@ -28,14 +27,6 @@ public abstract class UniversityUser extends Account {
 
 	public void setId(int id) {
 		this.id = id;
-	}
-
-	public Vehicle getVehicleInfo() {
-		return vehicleInfo;
-	}
-
-	public void setVehicleInfo(Vehicle vehicleInfo) {
-		this.vehicleInfo = vehicleInfo;
 	}
 
 	public String getPaymentType() {
