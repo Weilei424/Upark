@@ -53,17 +53,16 @@ public class Lot {
 	}
 
 	public String calculateCapacity (Lot a){
-		if (a.counter / a.cap == 0){
-			return "Grey";
-		}
-		else if ((a.counter / a.cap) * 100 <= 25){
+		if ((a.counter / a.cap) * 100 <= 25){
 			return "Green";
 		}
-		else if ((a.counter / a.cap) * 100 => 50) && (a.counter / a.cap) * 100 < 75{
+		else if ((a.counter / a.cap) * 100 >= 50 && (a.counter / a.cap) * 100 < 75){
 			return "Yellow";
 		}
-		else if ((a.counter / a.cap) * 100 => 75) && (a.counter / a.cap) * 100 < 100{{
+		else if ((a.counter / a.cap) * 100 >= 75 && (a.counter / a.cap) * 100 < 100){
 			return "Red";
+		} else {
+			return "Grey";
 		}
 	}
 }
