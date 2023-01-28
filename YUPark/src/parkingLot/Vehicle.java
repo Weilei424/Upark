@@ -19,7 +19,7 @@ public class Vehicle {
 		this.plate = plate;
 	}
 	
-	public Vehicle getInstanceOf(String make, String model, String color, int year, String plate) {
+	public static Vehicle getInstanceOf(String make, String model, String color, int year, String plate) {
 		Vehicle v = new Vehicle(make, model, color, year, plate);
 		return v;
 	}
