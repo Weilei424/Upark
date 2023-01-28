@@ -1,5 +1,5 @@
-# YUPark 🚗
-## This project is for York University CSHub Local Hack Day 2023 🖥️
+# 🚗 YUPark 🚗
+## 🖥️ This project is for York University CSHub Local Hack Day 2023 🖥️
 
 Theme: Campus
 
