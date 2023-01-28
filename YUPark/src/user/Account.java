@@ -1,11 +1,13 @@
 package user;
 
 import parkingLot.Lot;
+import parkingLot.Vehicle;
 
 public abstract class Account {
 	protected int accNum;
 	protected String status;
-	protected Lot currentLot;
+	Lot currentLot;
+	Vehicle vehicleInfo;
 	
 	protected Account() {
 		this(0, "", null);
