@@ -11,7 +11,7 @@ Functionality: YUPark is easy and simple to use. First head to the YUPark websit
 
 About the Team: 
 
-Adam: Hi my name is Adam, I'm a second year student pursuing a bachelors in computer science here at York. My roles for this hackathon were to work on designing and planning the back-end portion of the project with Mason and Mustafa. Aditionally I designed the map for the front-end and video for our pitch. 
+Adam: Hi my name is Adam, I'm a second year student pursuing a bachelors in computer science here at York. My roles for this hackathon were to work on designing and planning the back-end portion of the project with Mason and Mustafa. Additionally I designed the map for the front-end and video for our pitch. 
 
 Amanuel:
 
