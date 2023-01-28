@@ -4,6 +4,7 @@ public class Lot {
 	protected String lotType;
 	protected int lotNum;
 	protected int cap;
+	public String colour;
 	public int counter;
 	
 	public Lot() {
@@ -51,7 +52,20 @@ public class Lot {
 		v.parked = false;
 	}
 
-
+	public String calculateCapacity (Lot a){
+		if (a.counter / a.cap == 0){
+			return "Grey";
+		}
+		else if ((a.counter / a.cap) * 100 <= 25){
+			return "Green";
+		}
+		else if ((a.counter / a.cap) * 100 => 50) && (a.counter / a.cap) * 100 < 75{
+			return "Yellow";
+		}
+		else if ((a.counter / a.cap) * 100 => 75) && (a.counter / a.cap) * 100 < 100{{
+			return "Red";
+		}
+	}
 }
 
 class FullCapacityError extends IllegalArgumentException{
