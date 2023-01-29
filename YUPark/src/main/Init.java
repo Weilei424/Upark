@@ -8,6 +8,8 @@ public class Init {
 
 	public static void main(String[] args) {
 		ArrayList<Lot> lots = new ArrayList<Lot>();
+		Controller controller = new Controller();
+		
 		Lot apg = new Lot("g");
 		apg.setLotNum(80);
 		apg.setCap(400);
