@@ -12,10 +12,10 @@ public class Controller {
 	/**
 	 * This arrayList should be storing Strings in following format:
 	 * index 0: accountType ("staff/student/guest")
-	 * index 1: name ("")
+	 * index 1: accountNum ("")
 	 * index 2: paymentType 
 	 * index 3: vehicle 
-	 * index 4: Lot
+	 * index 4: lotNum
 	 */
 	ArrayList<String> input;
 	
@@ -35,6 +35,8 @@ public class Controller {
 		}
 		s1.close();
 		this.user = this.infoDispatch();
+		this.user.setCurrentLot(this.input.get(4));
+		this.user.setAccNum(Integer.parseInt(this.input.get(1)));
 	}
 	
 	private Account infoDispatch() {

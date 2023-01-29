@@ -6,14 +6,14 @@ import parkingLot.Vehicle;
 public abstract class Account {
 	protected int accNum;
 	protected String status;
-	Lot currentLot;
+	String currentLot;
 	Vehicle vehicleInfo;
 	
 	protected Account() {
 		this(0, "", null);
 	}
 	
-	protected Account(int accNum, String status, Lot currentLot) {
+	protected Account(int accNum, String status, String currentLot) {
 		this.accNum = accNum;
 		this.status = status;
 		this.currentLot = currentLot;
@@ -35,12 +35,12 @@ public abstract class Account {
 		this.status = status;
 	}
 
-	public Lot getCurrentLot() {
+	public String getCurrentLot() {
 		return currentLot;
 	}
 
-	public void setCurrentLot(Lot currentLot) {
-		this.currentLot = currentLot;
+	public void setCurrentLot(String lot) {
+		this.currentLot = lot;
 	}
 	
 	
